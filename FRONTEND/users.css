@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(Assets/pexels-codioful-\(formerly-gradienta\)-7130488.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-style: italic;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #b2c8e5;
+  color: white;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3), 2px 2px 1px black;
+  background-image: url("/pexels-ksenia-chernaya-5691695.jpg");
+}
+.img {
+  size: 60px;
+  height: 50px;
+}
+.logout_btn1 {
+  border: none;
+  border-radius: 45%;
+  width: 5vw;
+  height: 10vh;
+}
+.UsersAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Users_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

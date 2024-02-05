@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("Assets/pexels-rostislav-uzunov-5011647.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 79vh;
+  background-image: url("Assets/pexels-michael-burrows-7129052.jpg");
+  background-size: cover;
+  background-position: center;
+  /* border: 2px solid red; */
+}
+.icon > img {
+  /* background-color: white; */
+  border-radius: 40%;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+}
+nav {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #b2c8e5;
+  color: white;
+  background-image: url("/pexels-ksenia-chernaya-5691695.jpg");
+}
+.navtext {
+  font-size: 16px;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  .icon2 {
+    height: 6vh;
+    width: 8vw;
+    border-radius: 10px;
+    border: none;
+  }
+}
+.dash {
+  font-size: 50px;
+  font-style: italic;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3), 
+               2px 2px 1px black;
+}
+.logout_btn {
+  height: 6vh;
+  width: 7vw;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #df1f1f;
+}
+.logout_btn:hover {
+  height: 8.5vh;
+  background-color: red;
+}
+
+.sideTab {
+  color: #eee;
+  position: fixed;
+  height: 80vh;
+  /* top: 0; */
+  left: -400px;
+  bottom: 0;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  /* border: 2px solid red; */
+}
+body > .sideTab {
+  left: 0;
+}
+body > .container {
+  transform: translateX(-250px);
+}
+.sideTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.sideTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.buttons {
+  background-color: black;
+  opacity: 50%;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  /* gap: 30px; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.add,
+.assign,
+.allProj {
+  width: 250px;
+  height: 10vh;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #b2c8e5;
+}
