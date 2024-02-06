@@ -112,9 +112,9 @@ body > .container {
   opacity: 50%;
   display: flex;
   height: 80vh;
-  flex-direction: column;
+  flex-direction: row;
   /* gap: 30px; */
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 30px;
 }
